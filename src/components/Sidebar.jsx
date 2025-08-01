@@ -48,12 +48,6 @@ function Sidebar({ isSidebarHidden, toggleSidebar }) {
       </div>
 
       <div className="pb-[1rem] pt-[2rem] overflow-y-auto h-[calc(100%-60px)] scrollbar-thin">
-        {/* {renderLinkSection(null, [
-          { icon: 'home', text: 'Home', path: '/' },
-          { icon: 'video_library', text: 'Shorts', path: '/shorts' },
-          { icon: 'subscriptions', text: 'Subscriptions', path: '/subscriptions' },
-          { icon: 'account_circle', text: 'You', path: '/account' },
-        ], true)} */}
         <div className="">
           {renderLinkSection(null, [
           { icon: 'home', text: 'Home', path: '/' },

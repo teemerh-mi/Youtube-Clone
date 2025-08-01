@@ -265,7 +265,7 @@ function VideoPage() {
         </div>
       </div>
 
-      <aside className="flex-1 w-full max-w-sm sticky top-[5.5rem] h-[calc(100vh-6rem)] overflow-y-auto">
+      <aside className="flex-1 w-full max-w-sm sticky top-[5.5rem] h-[calc(100vh-6rem)]">
         <CategoryList
           categories={categories}
           activeCategory={activeCategory}
