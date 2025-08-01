@@ -13,9 +13,9 @@ function Header({ toggleSidebar }) {
   };
 
   return (
-    <nav className="flex items-center gap-8 p-[0.5rem 1rem] justify-between">
+    <nav className="flex items-center gap-8 px-4 py-2 justify-between">
       {/* Left Section */}
-      <div className="flex items-center">
+      <div className="hidden items-center">
         <button
           classNam="border-none cursor-pointer h-10 w-10 rounded-[50%] bg-none md:hidden"
           onClick={toggleSidebar}
@@ -60,7 +60,7 @@ function Header({ toggleSidebar }) {
 
       {/* Right Section */}
       <div className="flex items-center gap-4">
-        {/* <i className="material-icons cursor-pointer">video_call</i> */}
+        <i className="material-icons cursor-pointer">video_call</i>
         <i className="material-icons cursor-pointer">notifications</i>
         <img
           src="/Tima.jpg"
