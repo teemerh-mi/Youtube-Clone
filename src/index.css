@@ -1,0 +1,30 @@
+ @import 'tailwindcss'; 
+@import 'tailwind-scrollbar-hide/v4';
+@plugin 'tailwind-scrollbar';
+
+@layer base {
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
+  body {
+    @apply font-['Roboto'] bg-[#f9f9f9] text-[#030303] overflow-x-hidden;
+  }
+    hr {
+      border-style: none; 
+      height: 1px; 
+      background: #e5e5e5;
+    }
+
+    /* .scrollbar {
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+    } */
+}
+
+@layer utilities {
+    .scrollbar {
+        scrollbar-width: thin;
+        scrollbar-color: transparent transparent;
+    }
+}
